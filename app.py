@@ -1,7 +1,4 @@
-#Generating HTML from within Python is not fun, and actually pretty cumbersome because you have to do the
-#HTML escaping on your own to keep the application secure. Because of that Flask configures the Jinja2 template engine 
-#for you automatically.
-#requests are objects that flask handles (get set post, etc)
+
 from flask import Flask, render_template,request
 #scientific computing library for saving, reading, and resizing images
 from scipy.misc import imsave, imread, imresize
